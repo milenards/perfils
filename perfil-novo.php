@@ -11,9 +11,10 @@
         Linkedin: <input name="linkedin"> <br>
         Youtube: <input name="youtube"> <br>
         Senha: <input name="senha" type="password"> <br>
-        Foto: <input name="foto"> <br>
+        Foto: <input type="file" name="foto"> <br>
         Fundo: <input name="fundo"> <br>
         <button type="submit">ENTRAR</button>
     </form>
 </main>
 <?php include_once "footer.php"; ?>
+
