@@ -32,7 +32,7 @@
           <a class="nav-link" href="#">Perfil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Adicionar novo</a>
+          <a class="nav-link" href="perfil-novo.php">Adicionar novo</a>
         </li>
       </ul>
       <!-- Left links -->
@@ -78,7 +78,7 @@
       <div class="dropdown">
         <a
           class="dropdown-toggle d-flex align-items-center hidden-arrow"
-          href="#"
+          href="logout.php"
           id="navbarDropdownMenuAvatar"
           role="button"
           data-mdb-toggle="dropdown"

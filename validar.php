@@ -3,6 +3,8 @@ $usuario = $_POST["usuario"];
 $senha = $_POST["senha"];
 
 include_once "conexao.php";
+$senha = md5($senha);
+
 $sql = "SELECT * FROM `perfils` WHERE email = '$usuario' and senha = '$senha'";
 
 $dados = mysqli_query($conexao, $sql);

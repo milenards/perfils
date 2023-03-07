@@ -12,7 +12,7 @@ include_once "header.php";
     <?php include_once "menu.php"; ?>
 </div>
 <main class="container">
-    
+<a href="relatorio.php" class="btn btn-primary">Relatorio</a>
 </main>
 <?php
 include_once "footer.php";
